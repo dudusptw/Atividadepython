@@ -1,0 +1,6 @@
+def ordenar_lista(numeros: list[int]) -> list[int]:
+    return sorted(numeros)
+
+lista = [87, 3, 45, 22, 16, 8]
+resultado = ordenar_lista(lista)
+print(resultado)
