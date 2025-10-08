@@ -1,0 +1,16 @@
+def criar_pessoa(nome: str, idade: int, id: int) :
+
+ return {
+    "id": id,
+    "nome": nome,
+    "idade": idade
+}
+ 
+pessoa1 = criar_pessoa("Eduardo", 18, 1)
+pessoa2 = criar_pessoa("José", 33, 2)
+pessoa3 = criar_pessoa("Paulo",15, 3)
+
+    
+print(pessoa1)
+print(pessoa2)
+print(pessoa3)
